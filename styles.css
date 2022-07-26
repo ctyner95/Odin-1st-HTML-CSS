@@ -5,21 +5,16 @@
 }
 
 body {
-    background-color: aqua;
     font-family: "roboto";
-}
-
-.hero {
-    background-color:#1F2937;
-    width: 100%;
-    height: 400px;
+    
 }
 
 .header {
+    font-size: 24px;
+    margin: 0px;
+    background-color: #1F2937;
     display: flex;
     justify-content: space-around;
-    font-size: 24px;
-    margin-bottom: 90px;
 }
 
 .header > h2 {
@@ -39,9 +34,21 @@ body {
     display: block;
 }
 
-.hero-text {
+.hero {
+    background-color:#1F2937;
+    width: 100%;
+    height: 600px;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    display: flex;
+    flex: 0 1 600px;
+}
+
+.hero-text {
     width: 50%;
     margin: 60px;
 }
@@ -67,7 +74,121 @@ body {
     border: none;
 }
 
+
 .hero-image {
     width: 400px;
-    display: inline-blo;
 }
+
+.info-container {
+    text-align: center;
+}
+
+.info-container > h2 {
+    font-size: 38px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-weight: 900;
+    color:#1F2937;
+}
+
+.box-container {
+ display: flex;
+ justify-content: center;
+ gap: 20px;
+ }
+
+ .box {
+    flex: 0 1 200px;
+    flex-wrap: wrap;
+ }
+.box > img {
+    width: 190px;
+    border-radius: 5px;
+    border: 3px solid #3882F6;
+    margin-top: 80px;
+}
+
+.quote-container {
+    margin: 60px 0;
+    height: 400px;
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    font-weight: 200;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    flex: 0 1 60%;
+}
+
+.sig {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.sign-up-section {
+    margin: 50px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-act-container {
+    padding: 50px;
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 10px;
+    flex: 0 1 900px;
+}
+
+.call-to-act-text{
+    width: 80%;
+}
+.call-to-act-text > h3 {
+    font-size: 28px;
+    color: #f9FAF8;
+    font-weight: 600;
+}
+
+.call-to-act-text > p {
+    color: #f9FAF8;
+    font-weight: 200;
+}
+
+.btn-container {
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #f9FAF8;
+    background-color:#3882F6;
+    border: 2px solid #f9FAF8;
+}
+
+footer {
+    height: 100px;
+    background-color: #1F2937;
+    text-align: center;
+    padding-top: 50px;
+    color: #e5e7eb;
+    font-size: 20px
+    
+}
+
+
+
+
+
+
+
+

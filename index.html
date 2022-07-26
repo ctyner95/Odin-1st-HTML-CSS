@@ -8,25 +8,73 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="hero">
+    <div class="all-content">
         <header class="header">
             <h2>Header Logo</h2>
-                <ul>
-                    <li class="nav-link">Header Link One</li>
-                    <li class="nav-link">Header Link Two</li>
-                    <li class="nav-link">Header Link Three</li>
-                </ul>
+            <ul>
+                <li class="nav-link">Header Link One</li>
+                <li class="nav-link">Header Link Two</li>
+                <li class="nav-link">Header Link Three</li>
+            </ul>
         </header>
-        <div class="hero-content">
-            <div class="hero-text">
-                <h2>This Website is Awesome!</h2>
-                <p>This Website has some subtext that goes here under the main title. It's a smaller font and the color is a lower contrast.</p>
-                <button class="btn">Sign up</button>
-            </div>
-            <div class="img-container">
-            
+        <div class="hero">
+            <div class="hero-content"> <!--child of hero-->
+                <div class="hero-text"><!--child of hero-content-->
+                    <h2>This Website is Awesome!</h2>
+                    <p>This Website has some subtext that goes here under the main title. It's a smaller font and the color is a lower contrast.</p>
+                    <button class="btn">Sign up</button>
+                </div> <!--child of hero-content-->
+            </div> <!--child of hero -->
+            <div class="image-container">
+                <div class="image">
+                    <img  class="hero-image" src="Odin-1st-HTML-CSS/images/matt-odell-Ug6YfAbSrQE-unsplash.jpg" alt="sloth hanging out">
+                </div>
             </div>
         </div>
-    </div>
+        <div class="info-container">
+            <h2>Some Random Information.</h2>
+            <div class="box-container">
+                <div class="box">
+                    <img src="Odin-1st-HTML-CSS/images/colin-watts-zZVjLs_9_9o-unsplash.jpg">
+                    <p>This is some subtext under an image.</p>
+                </div>
+                <div class="box">
+                    <img src="Odin-1st-HTML-CSS/images/michal-mikulec-6gezJoRAM-E-unsplash.jpg">
+                    <p>This is some subtext under an image.</p>
+                </div>
+                <div class="box">
+                    <img src="Odin-1st-HTML-CSS/images/thomas-park-5NJwFWQeTsc-unsplash.jpg">
+                    <p>This is some subtext under an image.</p>
+                </div>
+                <div class="box">
+                    <img src="Odin-1st-HTML-CSS/images/wolfgang-hasselmann-Mz0mAeDnZ00-unsplash.jpg">
+                    <p>This is some subtext under an image.</p>
+                </div>
+            </div>
+        </div> 
+        <div class="quote-container">
+            <div class="quote-text">
+                <p>This is an inspring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe
+                people will actually read it. Who knows? All I know is that it looks nice.</p>
+                <div class="sig">
+                    <h6>-Thor, God of Thunder</h6>
+                </div>
+            </div>
+        </div>
+        <div class="sign-up-section">
+            <div class="call-to-act-container">
+                <div class="call-to-act-text">
+                    <h3>Call to Action! It's Time!</h3>
+                    <p>Sign up for our product by clicking that button right over there!</p>
+                </div>
+                <div class="btn-container">
+                    <button class="sign-btn">Sign up</button>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>Copyright © The Odin Project 2021</p>
+        </footer>
+     </div>
 </body>
 </html>
